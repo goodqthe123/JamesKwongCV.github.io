@@ -1,0 +1,90 @@
+
+body{
+    
+font-family:Verdana ;
+background-image: url("image\img-mission-background.jpg");
+}
+
+.back{
+    
+  background-color: hsl(0, 0%, 85%);
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+.james{
+    align-content:flex-start;
+    text-align: left;
+    width: 80%;
+    padding:50px;
+}
+
+.james p{
+  width: 80%;
+  padding:50px;
+}
+
+.Hello{
+    left:300px;
+   background-color: salmon;
+   color:white;
+   height:40px;
+   width: 100px;
+}
+
+.jameskwong{
+    color:salmon;
+}
+
+#Contact{
+   padding: 0px 10px 10px 0px;
+}
+
+.text{
+    text-align: center;
+    padding:50px 0px 50px;
+    word-spacing: 0.3em;
+    line-height: 1.4;
+    border-style: solid;
+}
+
+.button{
+
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: salmon;
+    background-color: salmon;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: relative;
+    top: 50px;
+    left: 45%;
+    text-decoration: none;
+  
+}
+
+
+.button:hover {
+    background-color: Tomato;
+    
+
+}
+
+.button:active {
+  background-color: salmon;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  text-decoration: none;
+}
